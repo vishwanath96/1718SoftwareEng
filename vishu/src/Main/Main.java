@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Elevator elevator = new Elevator();
+      /*  Elevator elevator = new Elevator();
         Scanner input = new Scanner(System.in);
         do {
             System.out.println("********************************************");
@@ -41,5 +41,8 @@ public class Main {
                     System.out.println("Invalid Floor No.");
             }
         }while(true);
+        */
+      AdminPanel panel = AdminPanel.getInstance();
+      System.out.println("--->" + panel.getVersion());
     }
 }
