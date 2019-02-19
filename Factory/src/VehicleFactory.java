@@ -5,6 +5,7 @@ public class VehicleFactory {
         } else if(vehicleType == "bike") {
             return new Bike();
         }
+
         return null;
     }
 }
